@@ -78,6 +78,12 @@ git clone https://github.com/Jane-hub-123/Chronic-Kidney-Disease-Prediction-.git
 
 ## Future improvements 
  -Validate on real-world data - Perfect scores are a red flag for data leakage or synthetic data; test on clinical/external datasets.
+- Use a real-world dataset instead of a simulated Kaggle dataset
+- Work with data collected from actual clinical or operational environments. This helps the model learn from real challenges such as missing values, noise, and inconsistencies, making it more reliable when deployed. 
+- Check and prevent data leakage
+- carefully ensure that no information from the target variable is accidentally included in the input features. Also, apply preprocessing steps (like scaling and encoding) correctly within the training pipeline to avoid “peeking” at the test data.
+- Improve feature engineering
+- Create more meaningful features by combining or transforming existing variables, and remove weak or irrelevant features. This helps the model capture deeper patterns in the data and improves both performance and interpretability.
 
 ## Author 
 -Jane Ndwigah 
