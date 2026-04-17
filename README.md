@@ -1,4 +1,4 @@
-# Chronic-Kidney-Disease-Prediction
+# Chronic-Kidney-Disease-Prediction (CKD)
 
 A Machine Learning Approach to Early Detection and Stage Classification of Chronic Kidney Disease
 
